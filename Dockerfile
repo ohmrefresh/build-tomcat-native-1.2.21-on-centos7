@@ -1,4 +1,4 @@
-FROM centos7
+FROM centos:latest
 
 #======= Install utility for compile package 
 RUN yum install -y wget tar unzip bind sudo gcc make tar
